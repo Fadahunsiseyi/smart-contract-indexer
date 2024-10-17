@@ -103,3 +103,14 @@ If everything is set up correctly, the application will:
 - Retrieve the last processed block from MongoDB (or start from block 0 if no block is stored).
 - Query the blockchain for Transfer and Approval events from the ERC-20 contract.
 - Store the events in MongoDB and continue polling the blockchain for new events every 10 seconds.
+
+<img width="619" alt="Annotation 2024-10-17 184728" src="https://github.com/user-attachments/assets/d17cc7b3-906c-4e38-b62e-f2b4e86d95bc">
+
+### The image above is a stored event from the contract
+
+
+### The image below is a transaction detail from the BlockScount
+
+<img width="783" alt="Annotation 2024-10-17 184933" src="https://github.com/user-attachments/assets/bad45287-84ba-4afb-82b6-4048198c7454">
+
+

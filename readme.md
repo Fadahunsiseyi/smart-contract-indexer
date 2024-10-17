@@ -49,6 +49,7 @@ First, clone the project repository:
 ```bash
 git clone https://github.com/Fadahunsiseyi/smart-contract-indexer.git
 cd smart-contract-indexer
+```
 
 ### 2. Install Dependencies
 
@@ -56,6 +57,7 @@ The project requires several npm packages to run. Install them using the followi
 
 ```bash
 npm install
+```
 
 This will install the following key dependencies:
 
@@ -73,6 +75,7 @@ RPC_ENDPOINT=http://your-rpc-endpoint
 CONTRACT_ADDRESS=0xYourContractAddress
 MONGO_URL=mongodb+srv://your-mongo-credentials
 DB_NAME=DATABASENAME
+```
 
 Make sure to replace the values with:
 
@@ -92,6 +95,7 @@ After configuring the project, you can start the application using the following
 
 ```bash
 node index.js
+```
 
 If everything is set up correctly, the application will:
 

@@ -6,8 +6,8 @@ This project is a backend service that listens to events emitted by an ERC-20 co
 
 - Listens to `Transfer` and `Approval` events from an ERC-20 token contract.
 - Efficiently retrieves blockchain events using Web3.js.
-- Stores the retrieved events in MongoDB, ensuring uniqueness by using an index.
-- Tracks the last processed block to ensure that no events are missed between application restarts.
+- Stores the retrieved events in MongoDB, ensuring uniqueness using an index.
+- Tracks the last processed block to ensure no events are missed between application restarts.
 - Provides a polling mechanism to process new blocks and store new events.
 - Supports robust error handling and duplicate event detection.
 
@@ -21,7 +21,7 @@ Before running this application, ensure you have the following:
 
 ## Project Structure
 
-The project is divided into several files, each responsible for specific functionality:
+The project is divided into several files, each responsible for a specific functionality:
 
 - `index.js`: Entry point for the application.
 - `db.js`: Handles MongoDB connection and database operations.
